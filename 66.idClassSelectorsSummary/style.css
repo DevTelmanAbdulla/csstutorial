@@ -1,0 +1,17 @@
+/* ClASS Selectors */
+.green{
+    color:green;
+}
+
+.red{
+    color:red;
+    background: grey;
+}
+
+#title {
+    font-size: 50px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
