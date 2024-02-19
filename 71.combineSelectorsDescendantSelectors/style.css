@@ -1,0 +1,22 @@
+/* p{
+    color:red;
+} */
+
+/* .container {
+    color:green;
+} */
+
+/* #text{
+    color:blue;
+} */
+
+/* .container #text{
+    color:orange;
+} */
+
+.container h2{
+    color:orange;
+}
+.container p{
+    color:green;
+}
