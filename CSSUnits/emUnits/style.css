@@ -1,0 +1,21 @@
+/* em- Relative, depends on parent
+1em - 16px default browser style
+1em = base value(16px)*number(1) = 16px
+2em = base value(16px)*number(2) = 32px
+3em = base value(16px)*number(3) = 48px
+
+*/
+div{
+    font-size: 5px;
+    color:red;
+    background: grey;
+}
+.absolute{
+    font-size: 32px;
+    color:green;
+}
+
+.relative{
+    font-size: 2em;
+    color:blue;
+}
