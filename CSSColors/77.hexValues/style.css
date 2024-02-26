@@ -1,0 +1,27 @@
+/* HEX Values #RRGGBB */
+
+/* 0123456789A(10)B(11)C(12)D(13)E(14)F(15) */
+/*            #FF0000 - RED
+              #00FF00 - Green
+*/
+
+/* visit website: colors.co */
+
+#first{
+    color:#ff0000;
+    background:#000;
+}
+#second{
+    color:#00ff00;
+    background: #000;
+}
+
+#third{
+    color:#0000ff;
+    background: #f15025;
+}
+
+#four{
+    color:#f234ad;
+}
+
