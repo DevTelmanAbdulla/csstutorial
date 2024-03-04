@@ -1,0 +1,20 @@
+/* elements have it set by default
+block: always starts a new line  and spans full width
+inline:does not start a new line and spans only content
+*/
+
+.block{
+    background: blue;
+    color:white;
+    /* experiment ucun asaqidaki */
+    /* display:block;
+    display:inline; */
+}
+
+.inline{
+     background: red;
+    color:white;
+    /* experiment ucun asaqidaki */
+    /* display:inline;
+    display:block; */
+}
