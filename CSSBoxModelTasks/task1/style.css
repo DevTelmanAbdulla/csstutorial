@@ -1,0 +1,43 @@
+
+.container{
+    border:2px solid blue;
+}
+.heading {
+    border:2px solid rebeccapurple;
+    margin:10px 5px 10px 5px;
+    
+}
+
+.heading > p{
+    padding:0px 0px 0px 10px;
+}
+
+li{
+    border:2px solid blue;
+    padding:2px;
+}
+.list{
+    border:2px solid rebeccapurple;
+    margin:10px 5px 10px 5px; 
+    padding:2px;
+}
+
+.words{
+    border:2px solid rebeccapurple;
+    margin:10px 5px 10px 5px;
+    
+}
+.words > p{
+    padding:0px 0px 0px 10px;
+
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    padding:2px;
+}
+
+.another{
+    margin:10px 5px 10px 5px;
+}
