@@ -1,0 +1,36 @@
+div{
+    height:300px;
+    color:white;
+}
+
+.big-img{
+    background:url('./big.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.small-img{
+    background:url('./small.jpeg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    background-position: left;
+    background-position: 0 0;
+    background-position: 100% 100%;
+
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: round; */
+}
+
+.folder-img{
+    background: url('./img/folder.jpeg');
+     background-repeat: no-repeat;
+     background-size: contain;
+
+
+}
