@@ -1,0 +1,30 @@
+div{
+    height:300px;
+    color:white;
+}
+
+.big-img{
+    background:url('./big.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.small-img{
+    background:url('./small.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: round; */
+}
+
+.folder-img{
+    background: url('./img/folder.jpeg');
+     background-repeat: no-repeat;
+     background-size: contain;
+
+
+}
