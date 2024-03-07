@@ -1,0 +1,44 @@
+/* list-type-type:property
+
+descendant selectors -soyundan gelen seciciler
+
+When you set box-sizing: border-box;, it tells the browser to include the padding and border of the element in the specified width and height. This means that the padding and border are counted inside the element's box rather than being added to the dimensions specified for the content area.
+*/
+
+/* 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+     
+
+.box-1, 
+.box-2, 
+.box-3{
+    width:200px;
+    height:200px;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.box-1{
+    background: red;
+    padding:20px;
+    /* box-sizing: content-box; */
+    /* yuxarida ona gore umumi box-sizing:border-box veririk */
+    box-sizing: border-box;
+}
+
+.box-2{
+    background: blue;
+}
+
+.box-3{
+    background: green;
+    padding:20px;
+}
+
+
+
+
