@@ -1,0 +1,7 @@
+-background:url('./image.jpeg')
+- background-repeat
+- background-size
+- background-position
+- background-attachment
+- linear-gradient + shorthand
+- colorzilla
