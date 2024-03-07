@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div{
+    min-height:100vh;
+    color:white;
+    border:2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    text-transform: uppercase;
+}
+
+.big-img{
+    background:url('./big.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.small-img{
+    background:url('./medium.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* scrolled etmek ucun asaqidaki kimi edin */
+    background-attachment: scroll;
+
+
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: round; */
+}
+
+.folder-img{
+    background: url('./big.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
