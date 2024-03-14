@@ -1,0 +1,23 @@
+/* ::before ::after pseudo-elements creates element and inserts before and after CONTENT
+content:'' -reuqired
+img --- does not work
+*/
+p::before{
+    content:'hello there';
+    font-weight: bold;
+    font-size: 2rem;
+    color:red;
+    display:block;
+    background: #222;
+}
+
+p::after{
+    content:'after';
+    width:30px;
+    height:30px;
+    font-weight: bold;
+    font-size: 2rem;
+    color:red;
+    display:block;
+    background: #222;
+}
