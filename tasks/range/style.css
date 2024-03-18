@@ -1,0 +1,8 @@
+.slider{
+    width:100%;
+}
+
+.slider:hover{
+    opacity:1;
+    cursor:pointer;
+}
