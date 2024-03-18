@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell That Spans Two Rows</title>
+</head>
+<style>
+    table, th, td{
+        border:1px solid grey;
+        text-align: center;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Mark Jolue</td>
+        </tr>
+
+        <tr>
+           <th>Email</th>
+           <td>mark@gmail.com</td>
+        </tr>
+
+        <tr>
+          <th rowspan="3">Countries visited</th>
+          <td>Ukraine</td>
+         </tr>
+          <tr>
+           <td>Poland</td>
+          </tr>
+          <tr>
+            <td>Moscow</td>
+          </tr> 
+        <tr>
+           <th rowspan="2">Phone</th>
+           <td>01099999</td>
+        </tr> 
+        <tr>
+            <td>01088888</td>
+        </tr>   
+    </table>
+</body>
+</html>
