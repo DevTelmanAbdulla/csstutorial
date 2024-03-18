@@ -1,0 +1,3 @@
+- transform: translate(), rotate(), scale(), skew()
+- transition: (change over time)
+- animation: (change over time with more control)
