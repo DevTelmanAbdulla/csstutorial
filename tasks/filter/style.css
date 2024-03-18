@@ -1,0 +1,42 @@
+
+
+.container{
+    position:relative;
+    /* display:inline; */
+   width:33%;
+   /* border:1px solid red; */
+   margin:0 auto;
+}
+
+.size{
+    width:16px;
+    height:16px;
+    position:absolute;
+    top:0%;
+    right:-10%;
+    
+}
+.label-font{
+    font-size:1rem;
+    font-weight: bold;
+}
+h2{
+    padding-top:32px;
+}
+
+.from, .date{
+    border-radius: 5px;
+    padding:10px;
+    width:60%;
+}
+
+input.checkbox{
+    transform: scale(2);
+}
+
+.label-checkbox{
+    margin-left:5px;
+}
+
+
+
