@@ -1,0 +1,54 @@
+.one{
+animation-name: moveLeft300px;
+animation-duration: 2.5s, 5s, 1s;
+animation-iteration-count: 2, 1, 5;
+}
+
+h3{
+animation-name: fadeInOut;
+animation-duration: 3s;
+animation-iteration-count: 1;
+}
+
+.two {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes moveLeft300px {
+  from {
+    margin-left: 300px;
+    width: 500%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes fadeInOut {
+  from {
+    margin-top: 300px;
+    width: 500%;
+    color:black;
+  }
+
+  to {
+    margin-top: 10%;
+    width: 50%;
+    color:blueviolet;
+  }
+}
